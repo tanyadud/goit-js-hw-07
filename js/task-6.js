@@ -30,11 +30,10 @@ createButton.addEventListener('click', () => {
   }
 
   inputNumber.value = '';
-  console.log("inputNumber", inputNumber.value);
 });
 
 destroyButton.addEventListener('click', () => {
   boxesContainer.innerHTML = '';
   boxesContainer.style.backgroundColor = '';
-  
+
 });
