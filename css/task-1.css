@@ -1,0 +1,35 @@
+.item {
+   background: #F6F6FE;
+   max-width: 392px;
+   padding: 16px;
+   border-radius: 8px;
+   list-style: none;
+   margin-bottom: 20px;
+   font-family: Roboto;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 32px;
+   letter-spacing: 0.04em;
+   text-align: left;
+}   
+
+.item li {
+    list-style: none;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding: 8px 16px;
+}
+
+.item ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    padding: 0;
+}

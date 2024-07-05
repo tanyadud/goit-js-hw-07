@@ -1,0 +1,33 @@
+#controls {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: #F6F6FE;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+input {
+    border-radius: 8px;
+    padding: 8px;
+    width: 140px;
+    border: 1px solid #808080;
+}
+
+#boxes {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+    padding: 32px;
+    border-radius: 8px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+button[data-destroy] {
+    background-color: #FF4E4E;
+}
+
+button[data-destroy]:hover {
+    background-color: #FF4E1A;
+}
